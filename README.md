@@ -25,10 +25,21 @@ Instructions:
 
 1. Download Windows 11 from the Microsoft website (<https://www.microsoft.com/software-download/windows11>)
 2. Mount the downloaded ISO image using Windows Explorer.
-3. Select the drive letter where the image is mounted (only the letter, no colon (:))
-4. Select the SKU that you want the image to be based.
-5. Sit back and relax :)
-6. When the image is completed, you will see it in the folder where the script was extracted, with the name tiny11.iso
+3. How to - Run PowerShell scripts in Windows 11
+
+    Open PowerShell as an Administrator.
+    Type Set-ExecutionPolicy Unrestricted.
+    Press Enter.
+    Type A.
+    Run the PowerShell script.
+    Once finished, type Set-ExecutionPolicy Restricted.
+    Press Enter.
+    Type Exit.
+4. Run script
+5. Select the drive letter where the image is mounted (only the letter, no colon (:))
+6. Select the SKU that you want the image to be based.
+7. Sit back and relax :)
+8. When the image is completed, you will see it in the folder where the script was extracted, with the name tiny11.iso
 
 What is removed:
 
